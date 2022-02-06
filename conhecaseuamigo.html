@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelutus Pelúcias - HOME</title>
+    <meta name="description" content="Na Pelutus Pelúcias é o seu ursinho quem escolhe você,venha conhecer o seu melhor amigo!">
+    <link rel="stylesheet" type="text/css" href="./styles/base.css">
+    <link rel="stylesheet" type="text/css" href="./styles/footer.css">
+</head>
+<body class="body-pagina-secundaria">
+    <header class="cabecalho">
+        <img class="cabecalho-img"src="imagens/imagem-logo-pelutus.png" alt="Logo Pelutus"> 
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item">Home</a>
+            <a class="cabecalho-menu-item">Conheça seu amigo</a>
+            <a class="cabecalho-menu-item">Contato</a>
+        </nav>
+    </header>
+    <section class="box-match">
+        <div class="dados">
+            <h1 class="titulo">Conheça seu melhor amigo!</h1>
+            <p>Sexo:
+                <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+                <input type="radio" name="sexo" id="masc">
+                <label for="masc">Masculino</label>
+            </p>
+            <p>Ano de nascimento: <input type="number" name="anotxt" id="anotxt" min="0"></p>
+            <p><input type="button" value="Vamos lá!" id="botão" class="botão-analise" onclick="analise()"></p>         
+        </div>
+        <div class="res" id="res">
+            Preencha os dados acima para ver seu amiguinho!
+        </div>
+    </section>
+    <footer class="rodape">
+        <p class="rodape-texto">&copy; PelutusPelucias</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

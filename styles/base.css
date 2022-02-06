@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Mochiy+Pop+P+One&family=Rubik+Beastly&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.body-pagina-principal {
+    background: #FAEDE9;
+
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-img {
+    height: 100px;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+}
+.cabecalho-menu-item {
+    font: arial;
+    font-size: 20px;
+    color: #97461a
+}
+.conteudo {
+    margin-bottom: 48px;;
+    border-top: 0.4px solid #97461a;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.conteudo-principal-texto-titulo {
+    font-family: 'Rubik Beastly', cursive;
+    font-weight: 400;
+    font-size: 75px;
+    color: #97461a
+}
+.conteudo-principal-texto-subtitulo {
+    font-family: 'Lobster', cursive;
+    font-weight: 200;
+    font-size: 18px;
+    color: #97461a
+}
+.conteudo-principal-imagem {
+    height: 430px;
+}
+.imagem-principal {
+    height: 400px;
+}
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+}
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #97461a;
+    padding-top: 20px;
+    font-family: 'Lobster', cursive;
+    font-weight: 200;
+    font-size: 25px;
+    color: #97461a
+}
+.conteudo-secundario-texto {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    font-size: 22px;
+    color: #97461a;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+
+
+.body-pagina-secundaria {
+    background: #97461a;
+}
+
+.box-match {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.788);
+}
+
+img {
+    height: 800px;
+}
+
+.dados {
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.titulo {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+}
+
+.res {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.botão-analise {
+    background-color: #582306;
+    border: none;
+    width: 130px;
+    height: 40px;
+    box-shadow: 5px 5px 10px #97461a;
+    border-radius: 20px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color:#FAEDE9;
+    
+}
+
